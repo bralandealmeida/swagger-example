@@ -6,12 +6,12 @@ import fs from 'fs';
 
 const app = express();
 
-app.use(routes);
-
 app.get('/', (request: Request, response: Response) => {
   const { name, version } = JSON.parse(fs.readFileSync('./package.json', 'utf8'));
   return response.json({ name, version })
-})
+});
+
+app.use(routes);
 
 const swaggerFilePath = async () => await import(path.resolve(__dirname, '..', '..', '..', '..', 'swagger_output.json'))
 swaggerFilePath().then((jsonFile) => app.use('/doc', swaggerUi.serve, swaggerUi.setup(jsonFile)))

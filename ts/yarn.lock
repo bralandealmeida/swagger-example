@@ -697,10 +697,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-swagger-autogen@^2.20.8:
-  version "2.20.8"
-  resolved "https://registry.yarnpkg.com/swagger-autogen/-/swagger-autogen-2.20.8.tgz#9c216897fced5e66952608592437ce60b8a3c344"
-  integrity sha512-FXFvTC0ZUTq8UysmlHgyEsXcmdiPKLTQZMPLXFVDfmKpsJxKXJ+Jr01WuHnQfh+/pyAXaHBFx3/9G4RxvezHqg==
+swagger-autogen@^2.21.0:
+  version "2.21.0"
+  resolved "https://registry.yarnpkg.com/swagger-autogen/-/swagger-autogen-2.21.0.tgz#e95fdd94e91e432a82dc02379bc592f4b61f2963"
+  integrity sha512-7sLomnbWamYencFqWDSG5ete3qeSLUtC7pfG0mJi9qOjIC35MNaFeDyxS95rwyuzq2B2Kyt3FCAO5Zt/B03vLQ==
   dependencies:
     acorn "^7.4.1"
     deepmerge "^4.2.2"
