@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
     "autogen": "node ./swagger.js",
     "dev:server": "tsnd -r tsconfig-paths/register --transpile-only --ignore-watch node_modules ./src/shared/infra/http/server.ts",
     "swagger-autogen": "ts-node -r tsconfig-paths/register -T ./src/shared/infra/http/swagger.ts"
